@@ -1,0 +1,34 @@
+/* Muonekano wa header yetu */
+@font-face {
+    font-family: header-font;
+    src: url('myriad-pro.eot');
+    src: url('myriad-pro.eot?#iefix') format('embedded-opentype'),
+         url('myriad-pro.woff') format('woff'),
+         url('myriad-pro.ttf') format('truetype'),
+         url('myriad-pro.svg#OpenSansBold') format('svg');
+}
+
+body {
+	/*background-color: #7bbade;*/
+	/*color: #333333;*/
+	/*text-align: center;*/
+}
+
+.center-title {
+	color: #ffffff;
+	text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+	text-transform: uppercase;
+	text-align: center;
+	font-family: header-font;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+.center-subtitle {
+	color: rgba(238, 238, 238, 8);
+	text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+	text-align: center;
+	font-family: header-font;
+	font-size: 12pt;
+	font-weight: normal;
+}
